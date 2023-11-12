@@ -32,7 +32,7 @@ pub fn build(b: *std.Build) void {
         .optimize = .ReleaseSmall,
     });
 
-    lib.global_base = 6560;
+    // lib.global_base = 6560;
     lib.rdynamic = true;
     lib.import_memory = true;
     lib.stack_size = std.wasm.page_size;
