@@ -6,3 +6,8 @@ zig-out/
 /build-*/
 /docgen_tmp/
 
+*.wasm
+*.wasm.o
+*.a
+*.o
+*.so
