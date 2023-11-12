@@ -1,7 +1,7 @@
 const std = @import("std");
 const testing = std.testing;
 
-export fn add(a: i32, b: i32) i32 {
+export fn add_two(a: i32, b: i32) i32 {
     return a + b;
 }
 
@@ -16,7 +16,7 @@ export fn echo(s: [*:0]const u8) [*:0]const u8 {
 }
 
 test "basic add functionality" {
-    try testing.expect(add(3, 7) == 10);
+    try testing.expect(add_two(3, 7) == 10);
 }
 
 test "hello" {

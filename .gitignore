@@ -6,8 +6,8 @@ zig-out/
 /build-*/
 /docgen_tmp/
 
-*.wasm
-*.wasm.o
+*.wasm*
+*.dylib*
 *.a
 *.o
 *.so
